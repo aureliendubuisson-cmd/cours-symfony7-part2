@@ -1,6 +1,6 @@
 <aside
-    class="pb-8 lg:pb-0 lg:w-[411px] shrink-0 lg:block lg:min-h-screen text-white transition-all overflow-hidden px-8 border-b lg:border-b-0 lg:border-r border-white/20 transition-all overflow-hidden"
-    data-controller="closeable"
+        class="pb-8 lg:pb-0 lg:w-[411px] shrink-0 lg:block lg:min-h-screen text-white transition-all overflow-hidden px-8 border-b lg:border-b-0 lg:border-r border-white/20 transition-all overflow-hidden"
+        data-controller="closeable"
 >
     <div class="flex justify-between mt-11 mb-7">
         <h2 class="text-[32px] font-semibold">My Ship Status</h2>
@@ -17,7 +17,7 @@
             </div>
             <h3 class="tracking-tight text-[22px] font-semibold">
                 <a class="hover:underline" href="{{ path('app_starship_show', {
-                    id: myShip.id
+                    slug: myShip.slug
                 }) }}">{{ myShip.name }}</a>
             </h3>
         </div>
